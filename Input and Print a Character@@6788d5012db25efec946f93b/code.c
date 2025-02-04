@@ -4,7 +4,7 @@ int main(){
     scanf("%c",&a);
     printf("You entered: ");
     printf("%c",a);
-    return 0;
+return 0;
 
 
 }

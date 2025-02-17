@@ -9,7 +9,7 @@ int main(){
         printf("Isosceles\n");
     }
     else if(a!=b && b!=c && c!=a){
-        printf("Scalene\n")
+        printf("Scalene\n");
     }
     return 0;
 }

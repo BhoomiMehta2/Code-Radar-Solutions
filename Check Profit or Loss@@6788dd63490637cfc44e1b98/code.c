@@ -12,4 +12,4 @@ int main(){
         printf("No Profit No Loss\m");
     }
     return 0;
-    }
+}

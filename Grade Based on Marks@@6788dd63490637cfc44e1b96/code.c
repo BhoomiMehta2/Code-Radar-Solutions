@@ -12,10 +12,10 @@ int main(){
         printf('C');
     }
     elseif(60<=a<70){
-        printf('D')
+        printf('D');
     }
     else{
-        printf('F')
+        printf('F');
     }
     return 0;
 }

@@ -11,5 +11,5 @@ int main(){
     else{
         printf("Not an alphabet character");
     }
-    return 0;
+
 }

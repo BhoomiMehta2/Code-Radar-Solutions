@@ -4,17 +4,17 @@ int main() {
     scanf("%d %d %c",&a,&b,&ch);
     switch (ch) {
         case '+':
-        printf("%d\n");
+        printf("%d+%d\n");
         break;
         case '-':
-        printf("%d\n");
+        printf("%d+%d\n");
         break;
         case '*':
-        printf("%d\n");
+        printf("%d+%d\n");
         break;
         case '/':
         if (b != 0) {
-                printf("%d\n");
+                printf("%d+%d\n");
             } else {
                 printf("Error! Division by zero.\n");
             }

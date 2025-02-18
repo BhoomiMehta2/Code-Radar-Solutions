@@ -1,21 +1,20 @@
 #include <stdio.h>
-
 int main() {
     char ch; int a,b;
     scanf("%d %d %c",&a,&b,&ch);
     switch (ch) {
         case '+':
-        printf("%d %d %c\n", a,b,a+b);
+        printf("%d\n");
         break;
         case '-':
-        printf("%d %d %c\n", a,b,a-b);
+        printf("%d\n");
         break;
         case '*':
-        printf("%d %d %c\n", a,b,a*b);
+        printf("%d\n");
         break;
         case '/':
         if (b != 0) {
-                printf("%d %d %c\n", a, b, a / b);
+                printf("%d\n");
             } else {
                 printf("Error! Division by zero.\n");
             }

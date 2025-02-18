@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main(){
-    int a;
-    scanf("%d",&a);
-    if(a&0){
-        printf("Set\n");
-    }else{
-        printf("Not Set\n");
-    }
-    return 0;
+    int num;
+    int num_bits= sizeof(int)*char_bit;
+    int msb=1<<(num_bits-1);
+    if(num & msb){
+        printf("Set");
+        }else{
+            printf("Not Set");
+        }
+        return 0;
 }

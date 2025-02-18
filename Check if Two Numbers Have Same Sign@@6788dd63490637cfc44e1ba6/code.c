@@ -5,7 +5,7 @@ int main(){
     if(a>0 && b>0)||(a<0 && b<0){
         printf("Same sign");
     } else{
-        printf("Numbers have different signs")
+        printf("Numbers have different signs");
     }
     return 0;
 }

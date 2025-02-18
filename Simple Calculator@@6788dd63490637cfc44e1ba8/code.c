@@ -14,7 +14,11 @@ int main() {
         printf("%d + %d = %d\n", a,b,a*b);
         break;
         case '/':
-        printf("%d + %d = %d\n", a,b,a/b);
+        if (b != 0) {
+                printf("%d / %d = %d\n", a, b, a / b);
+            } else {
+                printf("Error! Division by zero.\n");
+            }
         break;
         default:
             printf("Invalid operator.\n");
